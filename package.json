@@ -6,11 +6,14 @@
   "dependencies": {
     "google-auth-library": "^0.10.0",
     "googleapis": "^16.1.0",
-    "speedtest-net": "^1.2.12"
+    "speedtest-net": "^1.2.12",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "nodejs",
@@ -23,5 +26,6 @@
     "test"
   ],
   "author": "Josh Blaha",
-  "license": "ISC"
+  "license": "ISC",
+  "snyk": true
 }
