@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "google-auth-library": "^0.10.0",
-    "googleapis": "^16.1.0",
+    "googleapis": "^59.0.0",
     "speedtest-net": "^1.2.12"
   },
   "devDependencies": {},
