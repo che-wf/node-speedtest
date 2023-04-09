@@ -6,7 +6,7 @@
   "dependencies": {
     "google-auth-library": "^1.0.0",
     "googleapis": "^26.0.1",
-    "speedtest-net": "^1.2.12"
+    "speedtest-net": "^2.0.0"
   },
   "devDependencies": {},
   "scripts": {
